@@ -48,7 +48,7 @@
         </br>
         </br>
         <p align="justify"><strong>DIFERENCIAIS: </strong>Ferramenta criativa dedicada a worldbuilding, gerenciamento e visualização de informações e consistência do universo criado. Incentivo a prática de escrita, leitura e criatividade. </p>
-	<p align="justify"><strong>INTEGRANTES: </strong>Elói Matos, Gabriel Giustina, Lucas Borba, Henrique Angar, Lorenzo Dal bó. </p>
+	<p align="justify"><strong>INTEGRANTES: </strong>Elói Matos, Gabriel Giustina, Lucas Borba, Henrique Angar e Lorenzo Dal bó. </p>
     </div>	
 </div>
 
