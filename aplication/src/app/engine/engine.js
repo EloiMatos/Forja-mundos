@@ -31,7 +31,7 @@ function manageStart(id, name, text) {
 class dataFrame {
 
     //CREATE DATA FRAME FROM USER DATA
-
+    
     constructor(id, name) {
 
         this.id = id,

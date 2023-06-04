@@ -1,4 +1,3 @@
-
 export default class world {
 
     //OBJECT CLASS FOR WORLD
