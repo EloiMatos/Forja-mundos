@@ -1,4 +1,3 @@
-import Header from './components/Header/Header'
 import './globals.css'
 
 export const metadata = {

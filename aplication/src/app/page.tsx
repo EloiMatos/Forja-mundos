@@ -1,5 +1,5 @@
 "use client";
-import { Button, IconButton } from "@mui/material";
+import { IconButton } from "@mui/material";
 import startEngine from "./engine/engine.js";
 import { ArrowForward, Instagram, Twitter, WhatsApp } from "@mui/icons-material";
 import Link from "next/link.js";
@@ -12,10 +12,10 @@ export default function Home() {
     <main className="h-screen flex bg-no-repeat bg-cover w-screen justify-between bg-[url('../../public/image5.svg')]">
       <form className="flex justify-center w-2/5 ml-4 h-full flex-col">
         <div className="h-5/6 flex gap-2 bg-white bg-opacity-25 rounded-lg justify-center flex-col">
-          <strong className="flex text-3xl justify-center mb-2">Login</strong>
+          <strong className="flex text-3xl justify-center mb-2">Fazer Login</strong>
           <fieldset className="flex items-center flex-col">
             <input
-              placeholder="Username"
+              placeholder="Nome do usuario"
               className="w-4/5 p-2 rounded-lg"
             ></input>
           </fieldset>
@@ -29,10 +29,9 @@ export default function Home() {
           </fieldset>
 
           <fieldset className="flex items-center flex-col">
-            <Button variant="contained" startIcon={<ArrowForward />}>
-              Enter
-            </Button>
+            <IconButton className="p-2 bg-white bg-opacity-50 rounded-full"><ArrowForward/></IconButton>
           </fieldset>
+          <strong className="flex text-lg gap-2 mt-4 justify-center">Ainda não tem conta?<Link className="underline hover:text-blue-800 " href={"./"}>Crie agora!</Link></strong>
         </div>
       </form>
       <nav>
