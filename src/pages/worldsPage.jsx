@@ -4,7 +4,7 @@ import { Alert, AlertTitle } from "@mui/material";
 import { useEffect } from "react";
 import { useState } from "react";
 import {Container} from "@mui/material";
-import  Navbar  from "@/components/Navbar";
+import  Header  from "@/components/Header";
 
 function WorldsPage() {
     const [isDrawerOpen, setIsDrawerOpen] = useState(false)
@@ -20,7 +20,7 @@ function WorldsPage() {
 
     return(
         <main className="pb-20 items-center w-full h-screen bg-indigo-500 ">
-            <Navbar/>
+            <Header/>
             <Container 
                 maxWidth={false} 
                 className='h-full'
