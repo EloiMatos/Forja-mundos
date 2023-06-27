@@ -1,6 +1,6 @@
 import { Container } from '@mui/material';
 import { Typography } from '@mui/material';
-import { EastList } from "./EastList";
+import { EastList } from "./list/EastList";
 
 export function EastContainer () {
     return (

@@ -1,5 +1,5 @@
 import { List } from "@mui/material";
-import { ItemList } from "./list/ItemList";
+import { ItemList } from "./ItemList";
 
 export function EastList () {
     const itemsList = [{
