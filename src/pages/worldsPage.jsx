@@ -8,7 +8,7 @@ function WorldsPage() {
     const [isDrawerOpen, setIsDrawerOpen] = useState(false)
 
     return(
-        <main className="pb-20 items-center w-full h-full bg-indigo-500 ">
+        <main className="p-1 items-center w-full h-full bg-indigo-500 ">
             <Navbar/>
             <Container 
                 maxWidth={false} 
