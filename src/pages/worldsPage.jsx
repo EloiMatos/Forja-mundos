@@ -1,5 +1,5 @@
-import LeftDrawer from "@/components/LeftDrawer";
-import { EastContainer } from "../components/East/EastContainer"
+import LeftDrawer from "@/components/west/LeftDrawer";
+import { EastContainer } from "../components/east/list/EastContainer"
 import { useState } from "react";
 import {Container} from "@mui/material";
 import { Navbar } from "@/components/Navbar";
