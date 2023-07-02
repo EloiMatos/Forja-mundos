@@ -26,9 +26,9 @@ export function EastList () {
         <List sx={{color:"black"}}>
             {
                 itemsList.map((item) => (
-                    <div>
+                    <>
                         <ItemList titleItem = { item.title } body = { item.body }/>
-                    </div>
+                    </>
                 ))
             }
         </List>
